@@ -1,0 +1,21 @@
+[project]
+name = "ledzeppelin-songs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dateparser>=1.2.1",
+    "httpx>=0.28.1",
+    "lyricsgenius>=3.2.0",
+    "matplotlib>=3.10.0",
+    "parsel>=1.10.0",
+    "pip>=25.0.1",
+    "polars>=1.22.0",
+    "pyqt6>=6.8.1",
+    "python-dotenv>=1.0.1",
+    "spacy>=3.8.4",
+]
+
+[tool.uv.sources]
+lyricsgenius = { git = "https://github.com/johnwmillr/LyricsGenius.git" }
