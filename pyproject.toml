@@ -9,6 +9,7 @@ dependencies = [
     "httpx>=0.28.1",
     "lyricsgenius>=3.2.0",
     "matplotlib>=3.10.0",
+    "pace>=1.0.1b1",
     "parsel>=1.10.0",
     "pip>=25.0.1",
     "polars>=1.22.0",
